@@ -19,6 +19,10 @@
   color: #8bc8bc;
 }
 
+.button.bg-dark:hover {
+  background-color: #3d7e84;
+}
+
 body {
   background: linear-gradient(135deg, #306064, #4b8f8e);
   height: 100vh;
