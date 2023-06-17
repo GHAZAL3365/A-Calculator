@@ -23,6 +23,10 @@
   background-color: #3d7e84;
 }
 
+.bold {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
 body {
   background: linear-gradient(135deg, #306064, #4b8f8e);
   height: 100vh;

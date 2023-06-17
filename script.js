@@ -3,6 +3,7 @@ let expression = "";
 buttons.forEach((button) => {
   button.addEventListener("click", (e) => {
     let targetedValue = e.target.innerHTML;
+
     if (targetedValue == "=") {
       if (isValidInput(expression)) {
         expression = eval(expression);
@@ -14,7 +15,7 @@ buttons.forEach((button) => {
     } else if (targetedValue == "AC") {
       expression = "";
       document.querySelector("input").value = expression;
-    } else if (targetedValue == "X") {
+    } else if (targetedValue == "DEL") {
       expression = expression.replace(expression[expression.length - 1], "");
 
       document.querySelector("input").value = expression;
